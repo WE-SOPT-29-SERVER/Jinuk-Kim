@@ -4,7 +4,6 @@ const util = require('../lib/util');
 const users = require('../dbMockup/user');
 const statusCode = require('../constants/statusCode');
 const responseMessage = require('../constants/responseMessage');
-const users = require('../dbMockup/user');
 
 router.post('/signup', (req, res) => {
 
