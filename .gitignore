@@ -125,6 +125,12 @@ dist
 # Serverless Webpack directories
 .webpack/
 
+# Optional stylelint cache
+.stylelintcache
+
+# SvelteKit build / generate output
+.svelte-kit
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -141,4 +147,10 @@ dist
 .history
 .ionide
 
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node
+
+we-sopt-jinuk-firebase-adminsdk-ttcb6-bf3da8d11c.json
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node
